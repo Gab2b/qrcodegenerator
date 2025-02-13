@@ -1,8 +1,23 @@
-# React + Vite
+# Générateur de QR Code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet React est une application simple qui génère un QR Code à partir de l'URL saisie.
 
-Currently, two official plugins are available:
+## Fonctionnalités
+- Validation des URLs saisies par l'utilisateur.
+- Génération de QR Code via `qrcode.react`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Commencer le projet
+
+1. Installer les dépendances :
+   ```bash
+   npm install
+   ```
+2. Lancer le serveur :
+   ```bash
+   npm run dev
+   ```
+
+## Technologies utilisées
+- React.js
+- TailwindCSS
+- qrcode.react
